@@ -4,7 +4,7 @@ resource "google_secret_manager_secret" "private_key" {
   labels    = local.labels
 
   replication {
-    automatic = true
+    auto { }
   }
 
   depends_on = [google_project_service.secret_manager]
