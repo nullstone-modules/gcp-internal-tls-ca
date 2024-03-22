@@ -1,0 +1,14 @@
+org_name: nullstone
+name: internal-tls-ca
+friendly_name: Internal TLS Cert Authority
+description: Creates a custom certificate authority for creating internal TLS certificates.
+category: datastore
+subcategory: ""
+provider_types:
+    - aws
+    - gcp
+platform: tls
+subplatform: internal
+type: ""
+appCategories: []
+is_public: true
